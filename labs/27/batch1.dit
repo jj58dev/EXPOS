@@ -1,0 +1,52 @@
+fdisk
+load --os ../labs/27/os_startup.xsm
+load --library ../expl/library.lib
+load --module 0 ../labs/27/resourcemanager.xsm
+load --module 1 ../labs/27/processmanager.xsm
+load --module 2 ../labs/27/memorymanager.xsm
+load --module 3 ../labs/27/filemanager.xsm
+load --module 4 ../labs/27/devicemanager.xsm
+load --module 5 ../labs/27/scheduler.xsm
+load --module 6 ../labs/27/pagermodule.xsm
+load --module 7 ../labs/27/bootmodule.xsm
+load --idle ../labs/27/idle.xsm
+load --init ../labs/27/login.xsm
+load --shell ../labs/27/exshell.xsm
+load --exec ../labs/27/assg1.xsm
+load --exec ../labs/27/assg2.xsm
+load --exec ../labs/27/assg3.xsm
+load --exec ../labs/27/assg4.xsm
+load --exec ../labs/27/merge.xsm
+load --exec ../labs/27/m_store.xsm
+load --exec ../labs/27/m_sort.xsm
+load --exec ../labs/27/m_merge.xsm
+load --exec ../labs/27/pgm1.xsm
+load --exec ../labs/27/pgm2.xsm
+load --exec ../labs/27/pid.xsm
+load --exec ../labs/27/evno.xsm
+load --exec ../labs/27/oddno.xsm
+load --exec ../labs/27/cp.xsm
+load --exec ../labs/27/cat.xsm
+load --exec ../labs/27/ls.xsm
+load --exec ../labs/27/rm.xsm
+load --exec ../labs/27/lu.xsm
+load --exec ../labs/27/ru.xsm
+load --data ../sample.dat
+load --int=timer ../labs/27/timer.xsm
+load --exhandler ../labs/27/exhandler.xsm
+load --int=4 ../labs/27/int4.xsm
+load --int=5 ../labs/27/int5.xsm
+load --int=6 ../labs/27/int6.xsm
+load --int=7 ../labs/27/int7.xsm
+load --int=8 ../labs/27/int8.xsm
+load --int=9 ../labs/27/int9.xsm
+load --int=10 ../labs/27/int10.xsm
+load --int=11 ../labs/27/int11.xsm
+load --int=12 ../labs/27/int12.xsm
+load --int=13 ../labs/27/int13.xsm
+load --int=14 ../labs/27/int14.xsm
+load --int=15 ../labs/27/int15.xsm
+load --int=16 ../labs/27/int16.xsm
+load --int=17 ../labs/27/int17.xsm
+load --int=console ../labs/27/consoleinterrupt.xsm
+load --int=disk ../labs/27/diskint.xsm

@@ -1,0 +1,28 @@
+fdisk
+load --os ../labs/23/os_startup.xsm
+load --library ../expl/library.lib
+load --module 0 ../labs/23/resourcemanager.xsm
+load --module 1 ../labs/23/processmanager.xsm
+load --module 2 ../labs/23/memorymanager.xsm
+load --module 4 ../labs/23/devicemanager.xsm
+load --module 5 ../labs/23/scheduler.xsm
+load --module 7 ../labs/23/bootmodule.xsm
+load --idle ../labs/23/idle.xsm
+load --init ../labs/23/shell.xsm
+load --exec ../labs/23/evno.xsm
+load --exec ../labs/23/oddno.xsm
+load --exec ../labs/23/assg1.xsm
+load --int=timer ../labs/23/timer.xsm
+load --exhandler ../labs/23/exhandler.xsm
+load --int=4 ../labs/23/int4.xsm
+load --int=6 ../labs/23/int6.xsm
+load --int=7 ../labs/23/int7.xsm
+load --int=8 ../labs/23/int8.xsm
+load --int=9 ../labs/23/int9.xsm
+load --int=10 ../labs/23/int10.xsm
+load --int=11 ../labs/23/int11.xsm
+load --int=13 ../labs/23/int13.xsm
+load --int=14 ../labs/23/int14.xsm
+load --int=15 ../labs/23/int15.xsm
+load --int=console ../labs/23/consoleinterrupt.xsm
+load --int=disk ../labs/23/diskint.xsm

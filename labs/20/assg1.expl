@@ -1,0 +1,22 @@
+decl
+    int temp,num;
+enddecl
+
+int main()
+{
+begin
+
+    temp = exposcall ( "Fork");
+    
+	if(temp == 0) then
+		write("child");
+		temp = exposcall ( "Exec" ,"oddno.xsm");
+	else
+		write("parent");
+		temp = exposcall ( "Exec" ,"evno.xsm");
+
+	endif;
+	
+    return 0;
+end
+}

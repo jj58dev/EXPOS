@@ -1,0 +1,19 @@
+fdisk
+load --os ../labs/18/os_startup.xsm
+load --library ../expl/library.lib
+load --module 0 ../labs/18/resourcemanager.xsm
+load --module 1 ../labs/18/processmanager.xsm
+load --module 2 ../labs/18/memorymanager.xsm
+load --module 4 ../labs/18/devicemanager.xsm
+load --module 5 ../labs/18/scheduler.xsm
+load --module 7 ../labs/18/bootmodule.xsm
+load --idle ../labs/18/idle.xsm
+load --init ../labs/18/pgrm.xsm
+load --exec ../labs/18/oddno.xsm
+load --int=timer ../labs/18/timer.xsm
+load --int=7 ../labs/18/int7.xsm
+load --int=9 ../labs/18/int9.xsm
+load --int=10 ../labs/18/int10.xsm
+load --int=6 ../labs/18/int6.xsm
+load --int=console ../labs/18/consoleinterrupt.xsm
+load --int=disk ../labs/18/diskint.xsm

@@ -1,0 +1,15 @@
+fdisk
+load --os ../labs/16/os_startup.xsm
+load --library ../expl/library.lib
+load --module 0 ../labs/16/resourcemanager.xsm
+load --module 4 ../labs/16/devicemanager.xsm
+load --module 5 ../labs/16/scheduler.xsm
+load --module 7 ../labs/16/bootmodule16.xsm
+load --idle ../labs/16/idle.xsm
+load --init ../labs/16/gcd.xsm
+load --int=timer ../labs/16/timer.xsm
+load --int=7 ../labs/16/int7.xsm
+load --int=10 ../labs/16/int10.xsm
+load --exec ../labs/16/evno.xsm
+load --int=6 ../labs/16/int6.xsm
+load --int=console ../labs/16/consoleinterrupt.xsm

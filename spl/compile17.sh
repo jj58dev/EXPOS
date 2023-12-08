@@ -1,0 +1,14 @@
+./spl ../labs/17/bootmodule.spl
+./spl ../labs/17/devicemanager.spl
+./spl ../labs/17/processmanager.spl
+./spl ../labs/17/memorymanager.spl
+./spl ../labs/17/exception.spl
+./spl ../labs/17/os_startup.spl
+./spl ../labs/17/resourcemanager.spl
+./spl ../labs/17/scheduler.spl
+./spl ../labs/17/timer.spl
+./spl ../labs/17/int6.spl
+./spl ../labs/17/int7.spl
+./spl ../labs/17/int9.spl
+./spl ../labs/17/int10.spl
+./spl ../labs/17/consoleinterrupt.spl

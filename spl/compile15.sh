@@ -1,0 +1,9 @@
+./spl ../labs/15/bootmodule.spl
+./spl ../labs/15/devicemanager.spl
+./spl ../labs/15/exception.spl
+./spl ../labs/15/int7.spl
+./spl ../labs/15/int10.spl
+./spl ../labs/15/os_startup.spl
+./spl ../labs/15/resourcemanager.spl
+./spl ../labs/15/scheduler.spl
+./spl ../labs/15/timer.spl

@@ -1,0 +1,18 @@
+fdisk
+load --os ../labs/17/os_startup.xsm
+load --library ../expl/library.lib
+load --module 0 ../labs/17/resourcemanager.xsm
+load --module 1 ../labs/17/processmanager.xsm
+load --module 2 ../labs/17/memorymanager.xsm
+load --module 4 ../labs/17/devicemanager.xsm
+load --module 5 ../labs/17/scheduler.xsm
+load --module 7 ../labs/17/bootmodule.xsm
+load --idle ../labs/17/idle.xsm
+load --init ../labs/17/pgrm.xsm
+load --exec ../labs/17/oddno.xsm
+load --int=timer ../labs/17/timer.xsm
+load --int=7 ../labs/17/int7.xsm
+load --int=9 ../labs/17/int9.xsm
+load --int=10 ../labs/17/int10.xsm
+load --int=6 ../labs/17/int6.xsm
+load --int=console ../labs/17/consoleinterrupt.xsm

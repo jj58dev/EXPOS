@@ -1,0 +1,16 @@
+./spl ../labs/20/bootmodule.spl
+./spl ../labs/20/devicemanager.spl
+./spl ../labs/20/processmanager.spl
+./spl ../labs/20/memorymanager.spl
+./spl ../labs/20/os_startup.spl
+./spl ../labs/20/resourcemanager.spl
+./spl ../labs/20/scheduler.spl
+./spl ../labs/20/timer.spl
+./spl ../labs/20/exhandler.spl
+./spl ../labs/20/int6.spl
+./spl ../labs/20/int7.spl
+./spl ../labs/20/int8.spl
+./spl ../labs/20/int9.spl
+./spl ../labs/20/int10.spl
+./spl ../labs/20/diskint.spl
+./spl ../labs/20/consoleinterrupt.spl

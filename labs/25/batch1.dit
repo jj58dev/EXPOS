@@ -1,0 +1,39 @@
+fdisk
+load --os ../labs/25/os_startup.xsm
+load --library ../expl/library.lib
+load --module 0 ../labs/25/resourcemanager.xsm
+load --module 1 ../labs/25/processmanager.xsm
+load --module 2 ../labs/25/memorymanager.xsm
+load --module 3 ../labs/25/filemanager.xsm
+load --module 4 ../labs/25/devicemanager.xsm
+load --module 5 ../labs/25/scheduler.xsm
+load --module 7 ../labs/25/bootmodule.xsm
+load --idle ../labs/25/idle.xsm
+load --init ../labs/25/shell.xsm
+load --exec ../labs/25/evno.xsm
+load --exec ../labs/25/oddno.xsm
+load --exec ../labs/25/assg1.xsm
+load --exec ../labs/25/assg2.xsm
+load --exec ../labs/25/assg3.xsm
+load --exec ../labs/25/assg4.xsm
+load --exec ../labs/25/cp.xsm
+load --exec ../labs/25/cat.xsm
+load --exec ../labs/25/ls.xsm
+load --exec ../labs/25/rm.xsm
+load --data ../sample.dat
+load --data ../labs/25/numbers.dat
+load --int=timer ../labs/25/timer.xsm
+load --exhandler ../labs/25/exhandler.xsm
+load --int=4 ../labs/25/int4.xsm
+load --int=5 ../labs/25/int5.xsm
+load --int=6 ../labs/25/int6.xsm
+load --int=7 ../labs/25/int7.xsm
+load --int=8 ../labs/25/int8.xsm
+load --int=9 ../labs/25/int9.xsm
+load --int=10 ../labs/25/int10.xsm
+load --int=11 ../labs/25/int11.xsm
+load --int=13 ../labs/25/int13.xsm
+load --int=14 ../labs/25/int14.xsm
+load --int=15 ../labs/25/int15.xsm
+load --int=console ../labs/25/consoleinterrupt.xsm
+load --int=disk ../labs/25/diskint.xsm

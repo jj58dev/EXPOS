@@ -1,0 +1,38 @@
+decl 
+	int gcd(int a, int b);
+enddecl
+
+int gcd(int a, int b) {
+	decl 
+		int out,temp;
+	enddecl
+
+	begin
+		//temp=exposcall("Write",-2,"a");
+		//temp=exposcall("Write",-2,a);
+		//temp=exposcall("Write",-2,"b");
+		//temp=exposcall("Write",-2,b);
+		if(a == 0) then
+			out = b;
+		else 
+			out = gcd((b%a), a);
+		endif;
+		return out;
+	end
+}
+
+int main() {
+	decl
+		int a, b, out,temp;
+	enddecl
+	begin 
+		temp=exposcall("Write",-2,"Enter a:");
+		temp=exposcall("Read",-1,a);
+		temp=exposcall("Write",-2,"Enter b:");
+		temp=exposcall("Read",-1,b);
+		out = gcd(a, b);
+		temp=exposcall("Write",-2,"out");
+		temp=exposcall("Write",-2,out);
+		return 0;
+	end
+}

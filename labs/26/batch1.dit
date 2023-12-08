@@ -1,0 +1,40 @@
+fdisk
+load --os ../labs/26/os_startup.xsm
+load --library ../expl/library.lib
+load --module 0 ../labs/26/resourcemanager.xsm
+load --module 1 ../labs/26/processmanager.xsm
+load --module 2 ../labs/26/memorymanager.xsm
+load --module 3 ../labs/26/filemanager.xsm
+load --module 4 ../labs/26/devicemanager.xsm
+load --module 5 ../labs/26/scheduler.xsm
+load --module 7 ../labs/26/bootmodule.xsm
+load --idle ../labs/26/idle.xsm
+load --init ../labs/26/login.xsm
+load --shell ../labs/26/exshell.xsm
+load --exec ../labs/26/evno.xsm
+load --exec ../labs/26/oddno.xsm
+load --exec ../labs/26/cp.xsm
+load --exec ../labs/26/cat.xsm
+load --exec ../labs/26/ls.xsm
+load --exec ../labs/26/rm.xsm
+load --exec ../labs/26/lu.xsm
+load --exec ../labs/26/ru.xsm
+load --data ../sample.dat
+load --int=timer ../labs/26/timer.xsm
+load --exhandler ../labs/26/exhandler.xsm
+load --int=4 ../labs/26/int4.xsm
+load --int=5 ../labs/26/int5.xsm
+load --int=6 ../labs/26/int6.xsm
+load --int=7 ../labs/26/int7.xsm
+load --int=8 ../labs/26/int8.xsm
+load --int=9 ../labs/26/int9.xsm
+load --int=10 ../labs/26/int10.xsm
+load --int=11 ../labs/26/int11.xsm
+load --int=12 ../labs/26/int12.xsm
+load --int=13 ../labs/26/int13.xsm
+load --int=14 ../labs/26/int14.xsm
+load --int=15 ../labs/26/int15.xsm
+load --int=16 ../labs/26/int16.xsm
+load --int=17 ../labs/26/int17.xsm
+load --int=console ../labs/26/consoleinterrupt.xsm
+load --int=disk ../labs/26/diskint.xsm

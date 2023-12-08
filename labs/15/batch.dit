@@ -1,0 +1,13 @@
+fdisk
+load --os ../labs/15/os_startup.xsm
+load --library ../expl/library.lib
+load --module 0 ../labs/15/resourcemanager.xsm
+load --module 4 ../labs/15/devicemanager.xsm
+load --module 5 ../labs/15/scheduler.xsm
+load --module 7 ../labs/15/bootmodule.xsm
+load --idle ../labs/15/idle.xsm
+load --init ../labs/15/oddnumbers.xsm
+load --int=timer ../labs/15/timer.xsm
+load --int=7 ../labs/15/int7.xsm
+load --int=10 ../labs/15/int10.xsm
+load --exec ../labs/15/evno.xsm
